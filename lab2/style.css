@@ -1,0 +1,39 @@
+body {
+  background-color: beige;
+  font-family: Arial, Helvetica, sans-serif;
+  border-spacing: 15px;
+}
+strong {
+  text-decoration: cyan;
+  text-overflow: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-overflow: ellipsis;
+  color:lightcoral;
+  font-size: large;
+  text-transform: capitalize;
+  text-decoration-line: overline underline;
+  text-decoration-style: wavy;
+}
+strong{
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  color: crimson;
+}
+p{
+  letter-spacing: 0px;  
+   font-weight: lighter; 
+}
+.center{
+    text-align: center;
+}
+ul~li{
+    direction: ltr;
+     font-style: italic;
+     
+}
