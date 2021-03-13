@@ -1,0 +1,64 @@
+/*Style chung chung */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 16px;
+    line-height: 1.8;
+    color: #222;
+}
+ul,ol{
+    list-style: none;
+}
+.container{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-center{
+    text-align: center;
+}
+.nb-10{
+margin-bottom: 10px;
+}
+.d-inline-block{
+    display: inline-block;
+}
+.w-1ch{
+    word-spacing: -1ch;
+}
+.wnormal{
+    word-spacing: normal;
+}
+.header{
+    background-color: mediumvioletred;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.nav{
+    background-color: midnightblue;
+}
+.main{
+    background-color: mintcream;
+    padding: 10px;
+    width :calc(75%-10px);
+    vertical-align : top;
+    margin-right: 10px;
+}
+.aside{
+    width: 25%;
+    height: 100%;
+}
+.main-wrapper{
+    word-spacing: -1ch;
+}
+.section{
+    background-color: mintcream;
+    padding: 10px;
+}
+.item{
+    width: calc(100%/3-10px);
+    background-color: mistyrose;
+}
