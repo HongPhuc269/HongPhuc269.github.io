@@ -1,0 +1,27 @@
+lable:nth-child(1) ,label{
+    display:inline-block;
+    width: 150px;
+}
+input[type ="text"],input[type ="passwword"],input[type ="date"]{
+width: 200px;
+box-sizing: border-box;
+}
+textarea{
+    resize: none;
+}
+input,textarea{
+    font: inherit;
+    background-color: khaki;
+    border: 0;
+    outline: none;
+}
+input:focus{
+    background-color: lightcoral;
+    border: 1px solid blue;
+}
+input[type = "number"]:valid{
+    background-color: blueviolet;
+}
+input[type = "number"]:invalid{
+    background-color:burlywood;
+}

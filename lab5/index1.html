@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action=""name="login">
+        <div class="row">
+            <label for="text">Username</label>            
+            <input id = "text" type="text" name="text" required>
+        </div>
+        <div class="row">
+            <label >password
+            <input type="password" name="password" required>
+            
+                </label>
+        </div>
+        <div class="row">
+            <label for="number">number</label>
+            <input type="number" name="number" required> 
+        </div>
+        <div class="row">
+            <label for="birthday">birthday</label>
+            <input type="date" name="date" id="birthday">
+        </div>
+        <div class="row">
+            <label >Favourite color
+            <input type="color" name="color">
+            </label>
+        </div>
+        <div class="row">
+            <label for="avatar">avatar</label>
+            <input type="file" name="file" accept="image/*">
+        </div>
+        
+        <div class="row">
+            <input type="checkbox" name="Hobby" value="game">
+            <input type="checkbox" name="Hobby" value="music">
+            <input type="checkbox" name="Hobby" value="eat">
+            <input type="checkbox" name="Hobby" value="shopping">
+        </div>
+        <div class="row">
+            <label for="gender">Gender</label>
+            <select name="gender" id="" >
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Bd">Bê đê</option>
+                <option value="les">Les</option>
+            </select>
+
+        </div>
+        <div class="row">
+            <label for="content">content</label>
+            <textarea name="content" id="content" cols="30" rows="10"></textarea>
+        </div>
+        <input  type="submit" value="gửi form" >
+        <input type="reset" value="xóa dữ liệu">
+        <button type="reset">reset</button>
+    </form>
+</body>
+</html>
