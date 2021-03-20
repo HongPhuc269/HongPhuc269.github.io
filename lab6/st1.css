@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+/*Class chung*/
+.container .tray-title{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex .no-wrap{
+    flex-wrap: nowrap;
+}
+/*Direction*/
+.flex .column{
+    flex-direction: column;
+}
+/*Justify*/
+.flex.j-start{
+    justify-content: flex-start;
+}
+.flex.j-end{
+    justify-content: flex-end;
+}
+.flex.j-center{
+    justify-content: center;
+}
+/*align*/
+.flex .a-start{
+    align-items: flex-start;
+}
+.flex .a-end{
+    align-items: flex-end;
+}
+.flex.a-center{
+    align-items: center;
+}
+.post{
+    flex-basis: 25%;
+}
+.post-image{
+    flex-basis: 50%;
+    padding-right: 10px;
+}
+.post-description{
+    flex-basis: 50%;
+}
+.post-wrap{
+    flex-basis: 25%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+}
+.logo {
+    width: 150px;
+    margin-right: 30px;
+}
+
+.menu-link {
+    display: block;
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+
+.menu-item {
+    margin-right: 10px;
+}
+
+.nav {
+    margin-right: 50px;
+}
+
+.actions {
+    margin-left: auto;
+}
+.tray-title {
+    position: relative;
+    margin-bottom: 5px;
+    color: #d80f16;
+    text-transform: uppercase;
+}
+.tray-content {
+    position: relative;
+    overflow: hidden;
+}
+.collection-item {
+    position: relative;
+    float: left;
+    height: auto;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+.collection-item-thumbnail{
+    border:0;
+    width:100%
+}
+
