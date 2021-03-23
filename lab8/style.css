@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+/*Class chung*/
+.container .tray-title{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex .no-wrap{
+    flex-wrap: nowrap;
+}
+/*Direction*/
+.flex .column{
+    flex-direction: column;
+}
+/*Justify*/
+.flex.j-start{
+    justify-content: flex-start;
+}
+.flex.j-end{
+    justify-content: flex-end;
+}
+.flex.j-center{
+    justify-content: center;
+}
+/*align*/
+.flex .a-start{
+    align-items: flex-start;
+}
+.flex .a-end{
+    align-items: flex-end;
+}
+.flex.a-center{
+    align-items: center;
+}
+
+
+.menu-item {
+    position: relative;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: #1d1f2e;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.container.small{
+    width: 940px;
+}
+.container .large{
+    width: 1440px;
+}
+.intro-content{
+    background-image: url(https://assets.website-files.com/5be96251aaba7a7b19ecdf69/5be96251aaba7a58aaecdfba_Header-Pic.jpg);
+    background-size: contain;
+    background-position: center bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.intro{
+    background-color: #050827;
+    min-height: 530px;
+    display: flex;
+}
+.content{
+    display: flex;
+    justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+
+body {
+    font-family: Karla, sans-serif;
+    color: #1d1f2e;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+}
+body {
+    margin: 0;
+    min-height: 100%;
+    background-color: #fff;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+}
+h3{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.content-wrap {
+    display: block;
+    width: 70%;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-left: auto;
+    text-align: center;
+}
+.wrap {
+    position: relative;
+    display: block;
+    width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.content {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
